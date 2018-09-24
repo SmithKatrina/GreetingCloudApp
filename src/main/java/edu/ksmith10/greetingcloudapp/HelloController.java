@@ -39,6 +39,7 @@ import java.nio.charset.StandardCharsets;
 public class HelloController {
 
     private int count = 1;
+    private long test = 1;
 
     @Autowired
     private GreetingDao greetingDao;
